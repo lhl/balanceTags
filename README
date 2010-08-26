@@ -3,8 +3,10 @@ http://www.gnu.org/licenses/gpl.html
 
 
 ***WARNING***
-DO NOT USE THIS CODE IN PRODUCTION. IT'S QUITE OLD AND ALMOST CERTAINLY VERY INSECURE. 
-(The last update of this branch was Oct 2001)
+DO NOT USE THIS CODE IN PRODUCTION FOR XSS FILTERING. IT'S QUITE OLD AND CERTAINLY 
+VERY INSECURE.  (The last update of this branch was Oct 2001!)
+
+As of 2010 the most updated/comprehensive XSS filter is: http://htmlpurifier.org/
 
 
 I've put this up for posterity and also from a request by the WP team to relicense
@@ -12,9 +14,9 @@ the code as GPL (instead of GPL 2.0)
 
 
 Biographical note: I originally whipped this up during a couple summer days after 
-graduating from USC mostly as an excercise to learn Cold Fusion 4.0 - I wrote a tag 
+graduating from USC mostly as an exercise to learn Cold Fusion 4.0 - I wrote a tag 
 filter/balancer I believe after a conversation w/ mathowie. balanceTags was written 
-first in PHP and then transcoded  to CF as an (incredibly painful) exercise.
+first in PHP and then transcoded to CF. (incredibly painful)
 
 A few months later, Michel asked/let me know he was using it in b2.
 
@@ -30,5 +32,6 @@ sausage gets made.
 (also perhaps of interest, I wrote this stack-based parser w/o having taken a compilers
 class or having much understanding of Lex or YACC. I was sure there was a better way to
 do it, but no one's bothered to rewrite it, so who knows)
+
 
 .l
