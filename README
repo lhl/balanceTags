@@ -1,0 +1,23 @@
+***WARNING***
+DO NOT USE THIS CODE IN PRODUCTION. IT'S QUITE OLD AND ALMOST CERTAINLY VERY INSECURE. 
+(The last update of this branch was Oct 2001)
+
+
+I've put this up for posterity and also from a request by the WP team to relicense
+the code as GPL (instead of GPL 2.0)
+
+Biographical note: I originally whipped this up during a couple summer days after 
+graduating from USC mostly as an excercise to learn Cold Fusion 4.0 - I wrote a tag 
+filter/balancer I believe after a conversation w/ mathowie. balanceTags was written 
+first in PHP and then transcoded  to CF as an (incredibly painful) excercise.
+
+A few months later, Michel asked/let me know he was using it in b2.
+
+I'm amazed any of it remains in production, but I believe descendants of this code
+continue to live on both in Metafilter and WordPress.
+
+That's humbling, amazing, and more than a bit terrifying. And of course, that's how the
+sausage gets made.
+
+
+.l
