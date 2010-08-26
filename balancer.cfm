@@ -34,13 +34,16 @@ and remember kids, don't drink fake shakes.<br></extra></closing></tags>">
  
  @param text      Text to be balanced
  @return          Returns balanced text
- @author          Leonard Lin (leonard@acm.org)
+ @author          Leonard Lin (lhl@randomfoo.net)
  @version         v1.51
  @date            November 5, 2001
- @license         GPL v2.0
+ @license         GPL
  @notes           MUST KILL PERSON WHO DECIDED ARRAYS SHOULD START AT 1
  @todo            Refine tag regex to deal better w/ unclosed brackets
  @changelog
+ 
+             2010-08-25 - updated license from GPLv2 to GPL (any version)
+
              1.51 checkTags for 'marquee' and 'blink' because they're annoying
              1.5  fixed closing tag behavior (allows extra closing tags
                   only when stack is empty - otherwise was adding doubles)

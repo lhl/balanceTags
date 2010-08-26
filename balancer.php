@@ -51,12 +51,14 @@ time: <?= ss_timing_current(); ?>s
  
  @param text      Text to be balanced
  @return          Returns balanced text
- @author          Leonard Lin (leonard@acm.org)
+ @author          Leonard Lin (lhl@randomfoo.net)
  @version         v1.1
  @date            November 4, 2001
- @license         GPL v2.0
+ @license         GPL
  @notes           
  @changelog       
+             2010-08-25 - updated license from GPLv2 to GPL (any version)
+
              1.2  ***TODO*** Make better - change loop condition to $text
              uhuh, it seems your code transformed <img src="" tag=""> into <img src=" tag=">
              it's in the file b2functions.php - for unicodewell
